@@ -1,0 +1,77 @@
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+@font-face {
+    font-family: SF-UI;
+    src: url(../fonts/SF-UI/SF-UI-Display-Regular.otf);
+}
+
+body {
+    color: black;
+    background-repeat: no-repeat;
+    background-color: #c7cad1;
+    font-family: SF-UI;
+}
+
+#navbar {
+    color: white;
+}
+
+img {
+    float: left;
+    padding-right: 25px;
+}
+
+body a:hover {
+    color: red;
+}
+
+.dark-mode {
+    background-color: #333;;
+    background-image: none;
+    color: white;
+    background-repeat: no-repeat;
+    background-image: stretch;
+}
+
+.link {
+    text-decoration: none;
+}
+
+div a:link {
+    color: orange;
+}
+
+div a:active {
+    color: cyan;
+}
+
+body div a:hover {
+    color: cyan;
+}
+
+div a:visited {
+    color: greenyellow;
+}
