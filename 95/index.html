@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home - My Website</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <meta author="Noah N" />
+    <meta property="og:image" content="assets/preview.png" />
+
+    <link rel="shortcut icon" href="assets/icons/computer-3.png" type="image/png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/win95.css">
+
+
+</head>
+
+<body class="windows-scrollbar">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-95 ">
+        <a class="navbar-brand" href="#">
+            <img src="assets/icons/computer-3.png"> Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav nav-tabs" id="myTab" role="tablist" s>
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="Click" href="#" role="tab" aria-controls="home"
+                    aria-selected="true">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="Click" href="about.html" role="tab"
+                    aria-controls="profile" aria-selected="false">About Us</a>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="Click" href="contact.html" role="tab"
+                    aria-controls="contact" aria-selected="true">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Home</h1>
+    </div>
+
+    <!-- Not header -->
+
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-8 text-center">
+                <img alt="Rick Astley GIF"
+                    src="https://68.media.tumblr.com/0077d03c2806b7749b84968544290f65/tumblr_nm3a9vrHa41tv4cyio1_400.gif"
+                    class="img-fluid" width="2336px">
+            </div>
+            <div class="col-md-4 my-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Lorem</h4>
+                    </div>
+                    <div class="card-body">
+                        ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nostrum ea ducimus fugit temporibus
+                        reiciendis explicabo error nulla doloribus sed eius quaerat dicta! Quaerat neque laboriosam sit,
+                        laudantium eum reiciendis.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap cards -->
+
+    <div class="container" id="page-content">
+        <div class="card-deck mb-3 text-center">
+            <div class="card square mb-4">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Reasons to use</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>I am never gonna give you up</li>
+                        <li>I am never gonna let you down</li>
+                        <li>I am never gonna run around and desert you</li>
+                        <li>I am never gonna make you cry</li>
+                        <li>I am never gonna say goodbye</li>
+                        <li>I am never gonna tell a lie and hurt you</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">How to use our service</h4>
+                </div>
+                <div class="card-body">
+                    <ol class="list-unstyled mt-3 mb-4">
+                        <li>Do not give me up</li>
+                        <li>Do not let me down</li>
+                        <li>Do not run around and desert me</li>
+                        <li>Do not make me cry</li>
+                        <li>Do not say goodbye</li>
+                        <li>Do not tell a lie and hurt me</li>
+                    </ol>
+                    <button type="button" class="btn btn-lg btn-block btn-primary" onclick="rickRoll()">Click
+                        here</button>
+                </div>
+            </div>
+            <div class="card w95 mb-4">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Want to have fun?</h4>
+                </div>
+                <div class="card-body">
+                    <form action="https://youtu.be/o-YBDTqX_ZU" method="get" target="_blank">
+                        <button type="submit" class="btn btn-lg btn-block btn-primary">Click here</button>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header header-inactive">
+                    <h4 class="my-0 font-weight-normal">Lorem</h4>
+                </div>
+                <div class="card-body">
+                    ipsum dolor sit amet consectetur adipisicing elit. Corporis saepe rem quisquam quam suscipit sint
+                    nihil laudantium reprehenderit at perspiciatis sit tempore rerum eum assumenda unde totam officia,
+                    earum qui.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="center">
+        <audio controls>
+            <source src="../audio/Rick Astley  Never Gonna Give You Up Video.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <br />
+    <br />
+
+    <!-- Forms -->
+
+    <div class="container">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Sign up for our service</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group row">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label"><img
+                                src="assets/icons/envelope_closed-1.png" class="icon-16-4"> Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-95" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label"><img src="assets/icons/keys-0.png"
+                                class="icon-16-4"> Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-95" id="inputPassword3">
+                        </div>
+                    </div>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <legend class="col-form-label col-sm-2 pt-0">Choose option</legend>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        First option
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                        value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Second option
+                                    </label>
+                                </div>
+                                <div class="form-check disabled">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                        value="option3" disabled>
+                                    <label class="form-check-label" for="gridRadios3">
+                                        Third option
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group row">
+                        <div class="col-sm-2">Agree to ToS</div>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                    Agree?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Sign up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Icons -->
+
+    <div class="container">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Lorem,</h4>
+            </div>
+            <div class="card-body">
+                ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident hic impedit, totam quod harum
+                earum libero beatae quia tempore iusto, quam fuga similique aliquid in sit. Consectetur, est possimus.
+            </div>
+        </div>
+    </div>
+
+    <button class="center1" onclick="location.href='../virus.html'">
+        <img alt="Terrible YouTube ad" src="https://i.redd.it/0l07a441o3z81.jpg" width="300px">
+        <a href="../virus.html"></a></button>
+    <br />
+    <br />
+
+    <!-- Footer -->
+    <footer class="taskbar" id="stickyTask">
+        <div class="row" style="margin-right: 0px;">
+            <div class="col-8">
+                <a href="../index.html" class="btn start-button"><img src="assets/icons/windows-0.png"
+                        class="icon-16">Start</a>
+            </div>
+            <div class="col-4 time">By Noah N</div>
+        </div>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="assets/clippy/clippy.min.js"></script>
+    <script type="text/javascript">
+        clippy.load('Clippy', function (agent) {
+            // do anything with the loaded agent
+            agent.show();
+            agent.animate();
+        });
+    </script>
+</body>
+
+</html>

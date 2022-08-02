@@ -15,3 +15,7 @@ function rickRoll() {
     e.target.classList.toggle('on');
   });
 })();
+
+function computerVirus() {
+  alert("HeLlO yOuR cOmPuTeR hAs ViRuS")
+}
