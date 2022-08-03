@@ -16,6 +16,7 @@
     padding: 8px 10px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 12.5px;
 }
 
 .btn:hover {
@@ -111,11 +112,29 @@ div button.on::after {
     src: url(../fonts/SF-UI/SF-UI-Display-Regular.otf);
 }
 
-body {
-    color: black;
-    background-repeat: no-repeat;
-    background-color: #c7cad1;
-    font-family: SF-UI;
+@media (prefers-color-scheme: light) {
+    body {
+        color: black;
+        background-repeat: no-repeat;
+        background-color: #c0d0ff;
+        background-image: linear-gradient(to left, white, #c0d0ff);
+        font-family: SF-UI;
+    }
+
+    body a:hover {
+        color: red
+    }
+
+    body.dark-theme {
+        background-color: black;
+        background-image: linear-gradient(to top, black, #333);
+        color: white;
+        background-repeat: no-repeat;
+        background-image: stretch;
+        font-family: SF-UI;
+    }
+
+
 }
 
 #navbar {
@@ -131,14 +150,13 @@ body a:hover {
     color: red;
 }
 
-.dark-mode {
+/*.dark-mode {
     background-color: #333;
-    ;
-    background-image: none;
+    background-image: linear-gradient(to top, black, #333);
     color: white;
     background-repeat: no-repeat;
     background-image: stretch;
-}
+}*/
 
 .link {
     text-decoration: none;
@@ -152,14 +170,17 @@ div a:active {
     color: cyan;
 }
 
+
 body div a:hover {
     color: cyan;
 }
+
 
 div a:visited {
     color: greenyellow;
 }
 
+/*
 body a:link.dark-mode {
     color: orange;
 }
@@ -175,3 +196,82 @@ body a:active.dark-mode {
 body a:visited.dark-mode {
     color: greenyellow;
 }
+*/
+
+@media (prefers-color-scheme: dark) {
+
+    /* defaults to dark theme */
+    body {
+        background-color: black;
+        background-image: linear-gradient(to top, black, #333);
+        color: white;
+        background-repeat: no-repeat;
+        background-image: stretch;
+        font-family: SF-UI;
+    }
+
+    body a:link {
+        color: orange;
+    }
+
+    body a:hover {
+        color: cyan;
+    }
+
+    body a:active {
+        color: cyan;
+    }
+
+    body a:visited {
+        color: greenyellow;
+    }
+
+    /* Override dark mode with light mode styles if the user decides to swap */
+    body.light-theme {
+        color: black;
+        background-repeat: no-repeat;
+        background-color: #c0d0ff;
+        background-image: linear-gradient(to left, white, #c0d0ff);
+        font-family: SF-UI;
+    }
+
+    body a:link.light-theme {
+        color: blue;
+    }
+
+    body a:hover.light-theme {
+        color: red;
+    }
+
+    body a:active.light-theme {
+        color: red;
+    }
+
+    body a:visited.light-theme {
+        color: purple;
+    }
+}
+
+/*    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae nihil quisquam saepe nesciunt itaque pariatur doloremque alias, totam magnam, molestiae eligendi corrupti ipsum non aut autem laudantium accusamus tempora! */
+
+/* pneumonoultramicroscopicsilicovolcanoconiosis */
+
+/*    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae nihil quisquam saepe nesciunt itaque pariatur doloremque alias, totam magnam, molestiae eligendi corrupti ipsum non aut autem laudantium accusamus tempora! */
+
+/* pneumonoultramicroscopicsilicovolcanoconiosis */
+
+/*    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae nihil quisquam saepe nesciunt itaque pariatur doloremque alias, totam magnam, molestiae eligendi corrupti ipsum non aut autem laudantium accusamus tempora! */
+
+/* pneumonoultramicroscopicsilicovolcanoconiosis */
+
+/*    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae nihil quisquam saepe nesciunt itaque pariatur doloremque alias, totam magnam, molestiae eligendi corrupti ipsum non aut autem laudantium accusamus tempora! */
+
+/* pneumonoultramicroscopicsilicovolcanoconiosis */
+
+/*    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae nihil quisquam saepe nesciunt itaque pariatur doloremque alias, totam magnam, molestiae eligendi corrupti ipsum non aut autem laudantium accusamus tempora! */
+
+/* pneumonoultramicroscopicsilicovolcanoconiosis */
+
+/*    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae nihil quisquam saepe nesciunt itaque pariatur doloremque alias, totam magnam, molestiae eligendi corrupti ipsum non aut autem laudantium accusamus tempora! */
+
+/* pneumonoultramicroscopicsilicovolcanoconiosis */
