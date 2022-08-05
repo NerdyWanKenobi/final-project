@@ -13,7 +13,7 @@
 <body>
     <div id="navbar" class="sticky" class="content">
         <a class="link" href="index.html">Home</a>
-        <a class="link" href="#">About Us</a>
+        <a class="link" id="activeLink" href="#">About Us</a>
         <a class="link" href="contact.html">Contact Us</a>
     </div>
     <br />
@@ -45,47 +45,88 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <a href="95/about.html">95</a>
+    <script>
+        (function () {
+            document.getElementsByTagName("button")[0].addEventListener("click", (e) => {
+                e.target.classList.toggle("on");
+            });
+        })();
+    </script>
+    <script>
+        // Listen for a click on the button 
+        btn.addEventListener("click", function () {
+            // If the OS is set to dark mode...
+            if (prefersDarkScheme.matches) {
+                // ...then apply the .light-theme class to override those styles
+                document.body.classList.toggle("light-theme");
+                // Otherwise...
+            } else {
+                // ...apply the .dark-theme class to override the default light styles
+                document.body.classList.toggle("dark-theme");
+            }
+        });
+    </script>
 </body>
+
+<footer class="AboutFooter">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <ul>
+        <li>
+            <input type="image" src="img/Mail.png"
+                onclick="window.location.href='mailto:nerdywankenobi@icloud.com';" class="FooterButton"
+                height="50px">
+        </li>
+        <li>
+            <form action="https://www.youtube.com/channel/UC5_KiHVqEq1OzmDB7iEyMnA/featured" method="get"
+                target="_blank">
+                <input type="image" src="img/YouTube.png" class="FooterButton" height="50px">
+            </form>
+        </li>
+        <li>
+            <form action="https://twitter.com/NerdyWan2022" method="get" target="_blank">
+                <input type="image" src="img/Twitter.png" class="FooterButton" height="50px">
+            </form>
+        </li>
+        <li>
+            <form action="https://instagram.com/nerdywan2022?igshid=YmMyMTA2M2Y=" method="get" target="_blank">
+                <input type="image" src="img/Instagram.png" class="FooterButton" height="50px">
+            </form>
+        </li>
+        <li>
+            <form action="https://instagram.com/hattie_the_basset?igshid=YmMyMTA2M2Y=" method="get" target="_blank">
+                <input type="image" src="img/Instagram.png" class="FooterButton" height="50px">
+            </form>
+        </li>
+        <li>
+            <form action="https://www.reddit.com/user/NerdyWan2020" method="get" target="_blank">
+                <input type="image" src="img/Reddit.png" class="FooterButton" height="50px">
+            </form>
+        </li>
+    </ul>
+    <img alt="UHS logo" src="img/UHS.jpg" height="300px" class="UHLogo">
+    <h3>Lorem</h3>
+    <p>
+        ipsum dolor sit amet consectetur adipisicing elit. Esse quo quidem velit voluptas eos vitae, omnis illo
+        <br />
+        quasi distinctio nemo, dolores placeat quisquam quam! Adipisci quasi voluptate dignissimos et amet?
+    </p>
+    <h2>Lorem</h2>
+    <p>ipsum, dolor sit amet consectetur adipisicing elit. Placeat, necessitatibus. Quisquam vitae accusamus, velit,
+        <br />
+        ea suscipit illo, sit quo optio pariatur reiciendis et. Obcaecati minus commodi dignissimos? Eum, eligendi
+        <br />
+        odit.
+    </p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <a class="bodyLink" href="95/index.html">95</a>
+</footer>
 
 </html>
